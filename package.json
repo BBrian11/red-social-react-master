@@ -1,0 +1,42 @@
+{
+  "name": "red-social-react-master",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "app-b-dashboard": "file:./index",
+    "firebase": "^6.2.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.4.1",
+    "recompose": "^0.30.0"
+  },
+  "scripts": {
+    "start": " react-scripts start",
+    "start:prod": "pushstate-server build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts. eject",
+    "server": "cd client/api && pm2 start server.js --watch",
+    "proxy": "http://128.199.139.144:3000"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
